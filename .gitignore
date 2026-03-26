@@ -1,0 +1,52 @@
+# Simulation and GUI outputs
+DVEfiles/
+urgReport/
+
+# General generated files
+*.log
+*.fsdb
+*.vdb
+*.key
+*.rc
+*.conf
+*.h
+*.o
+*.so
+*.daidir/
+*.simv
+*.simv.vdb
+*.tar.gz
+*.vpd
+*.setup
+*.slave_transaction_trace
+*.out
+
+# VCS / Verdi generated trees
+64/
+AN.DB/
+csrc/
+vdCovLog/
+verdiLog/
+work.lib++/
+
+# sim/ generated artifacts
+sim/DVEfiles/
+sim/csrc/
+sim/out/
+sim/out.vdb/
+sim/merge_cov.vdb/
+sim/urgReport/
+sim/verdiLog/
+sim/cm.log
+sim/novas.rc
+sim/novas_dump.log
+sim/tr_db.log
+sim/ucli.key
+sim/vc_hdrs.h
+sim/session.out.vdb.el
+sim/session.out.vdb.tcl
+sim/exclude.el
+sim/excludev2.el
+
+# Local debug artifacts
+debug/*.o
